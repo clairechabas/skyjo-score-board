@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import './fonts.css';
+
+@layer base {
+  * {
+    font-family: 'Pally-Variable', 'sans-serif';
+  }
+
+  h1,
+  h2,
+  h3 {
+    font-weight: 600;
+  }
+
+  p,
+  ul,
+  li,
+  a,
+  span {
+    font-weight: 300;
+  }
+}
